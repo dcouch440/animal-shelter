@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+}
+body {
+  justify-content: center;
+}
+/* Navbar Starts */
+.navbar {
+  flex-wrap: wrap;
+  border: 2px solid rgba(0, 0, 0, 0.596);
+  background-color: goldenrod;
+  height: 50px;
+  width: 100%;
+  padding: 20px;
+}
+.navbar-inner {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.brand {
+  font-size: 24px;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 10px;
+  text-decoration: underline;
+  background-color: rgba(255, 255, 255, 0.294);
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: inset 2px -4px 20px 0px white;
+}
+.navbar ul, .navbar li {
+  margin: 0;
+  padding: 0;
+}
+.navbar ul a {
+  color: white;
+  text-decoration: none;
+}
+.navbar li {
+  display: inline;
+  padding: 5px 10px;
+  background-color: #000000bf;
+  border-radius: 8px;
+  color: whitesmoke;
+}
+.navbar li:hover {
+  cursor: pointer;
+  background-color: rgba(58, 58, 58, 0.698);
+  transition: .2s;
+}
+
+/* Navbar Ends */
+
+/* Page Content Format */
+
+.content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: calc(100% - 50px);
+}
+
+.article {
+  text-align: center;
+  width: 80%;
+  border-left: 2px solid rgb(0, 0, 0);
+  border-right: 2px solid rgb(0, 0, 0);
+}
+
+#mission-head h1{
+  background-color: rgb(153, 153, 153);
+  margin: 0;
+  border-bottom: 2px solid rgb(73, 73, 73);
+}
+#our-mission {
+  margin: 0;
+  padding: 5%;
+  background-color: rgba(158, 158, 158, 0.219);
+}
+
+#our-mission ul {
+  border: 2px
+}
+
